@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJEMPLO</title>
+    <link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos</h1>
+        <p>Aqui te brindaremos información sobre libros</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#obras">Obras</a> |
+        <a href="#autores">Autores</a> |
+        <a href="#contacto">Contacto</a> |
+        <a href="#sugerencia">Sugerencia</a> |
+        <a href="servicios.html">Servicios</a>
+    </nav>
+    <section id="inicio">
+        <h2>La casa del libro</h2>
+        <p>
+            Aqui te dejamos una serie de libros que son bastante conocidos por la comunidad lectora 
+        </p>
+    </section>
+    <section id="obras">
+        <h2>Obras</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Sinopsis</th>
+                    <th>Escritor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Odisea</td>
+                    <td>He aquí uno de los más grandes poemas épicos de todos los tiempos: Odisea. En él se narra el regreso del héroe, Odiseo, a su patria, Ítaca, después de la conquista de Troya.</td>
+                    <td>Homero</td>
+                </tr>
+                <tr>
+                    <td>Don Quijote de la Mancha</td>
+                    <td>Don Quijote de la Mancha inauguró una nueva forma de novelar y de representar la realidad humana. De la vieja comicidad, basada en la distrancia y la falta de simpatía con los personajes</td>
+                    <td>Miguel de Cervantes</td>
+                </tr>
+                <tr>
+                    <td>El código Da Vinci</td>
+                    <td>La mayor conspiración de los últimos 2000 años está a punto de ser desvelada.
+
+                        Una de las novelas más leídas de todos los tiempos.
+                        
+                        Edición 20º aniversario.</td>
+                    <td>Dan Brown</td>
+                </tr>
+                <tr>
+                    <td>El Hobbit</td>
+                    <td>La obra maestra de Agatha Christie.
+
+                        Esta edición restituye el título original de la novela mundialmente conocida como Diez negritos.
+                        
+                        </td>
+                    <td>J.R.R. Tolkien</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="autores">
+        <h2>Autores</h2>
+        <ul>
+            <li><strong>HOMERO</strong></li>
+            <img src="IMG/homero.jpg" alt="homero">
+            <li><strong>MIGUEL DE CERVANTES</strong></li>
+            <img src="IMG/miguel-de-cervantes.jpg" alt="miguel-de-cervantes">
+            <li><strong>DAN BROWN</strong></li>
+            <img src="IMG/Dan_Brown.jpg" alt="dan-brown">
+            <li><strong>J.R.R. TOLKIEN</strong></li>
+            <img src="IMG/JRR-Tolkien.webp" alt="j.r.r. tolkien">
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">enviar</button>
+        </form>
+    </section>
+    <section id="sugerencia">
+        <h2>Contacto</h2>
+        <p>Puedes decirnos un libro que te guste.</p>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="autor">Autor:</label><br>
+            <input type="text" id="autor" name="autor"><br><br>
+            <button type="submit">enviar</button>
+        </form>
+    </section>
+    <div class="card text-center">
+        <div class="card-header">
+          Footer
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Pagina de Carlos Márquez</h5>
+          <p class="card-text">Esta pagina es de practica.</p>
+          <a href="#" class="btn btn-primary">Inicio</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          08/02/2025
+        </div>
+      </div>
+
+</body>
+</html>
